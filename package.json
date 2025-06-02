@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "next lint"
+    "test": "next lint",
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "14.2.21",
@@ -14,6 +15,8 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@eslint/js": "^9.28.0",
+    "@next/eslint-plugin-next": "^15.3.3",
     "eslint": "^9.28.0",
     "eslint-config-next": "^15.3.3"
   }
